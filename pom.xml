@@ -9,6 +9,10 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>ddd-core</module>
+        <module>xyz-yang-spring-boot-starter</module>
+        <module>toodles</module>
+        <module>query-core</module>
+        <module>xyz-yang-spring-boot-starter-mongo</module>
     </modules>
     <packaging>pom</packaging>
 

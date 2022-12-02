@@ -1,12 +1,10 @@
-package xyz.yang.ddd.core;
+package xyz.yang.toodles;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.util.Map;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class ServiceLocatorTest {
 
@@ -33,9 +31,9 @@ class ServiceLocatorTest {
     @Test
     void test() {
         String str = ServiceLocator.service(String.class);
-        assertEquals("1", str);
+        Assertions.assertEquals("1", str);
         Long l = ServiceLocator.service(Long.class);
-        assertEquals(1, l);
+        Assertions.assertEquals(1, l);
     }
 
     @Test

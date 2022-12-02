@@ -1,4 +1,4 @@
-package xyz.yang.ddd.core;
+package xyz.yang.toodles;
 
 import java.util.Objects;
 import java.util.Optional;
