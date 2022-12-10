@@ -3,9 +3,11 @@ package xyz.yang.ddd.core.springframework;
 import org.springframework.boot.context.event.ApplicationPreparedEvent;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationListener;
+import org.springframework.stereotype.Component;
 import xyz.yang.toodles.ServiceLocator;
 
 @SuppressWarnings("unused")
+@Component
 public class SpringServiceRegistry implements ServiceLocator.ServiceRegistry, ApplicationListener<ApplicationPreparedEvent> {
     private ApplicationContext context;
 

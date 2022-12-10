@@ -1,16 +1,14 @@
-package xyz.yang.ddd.core.springframework.config;
+package xyz.yang.ddd.core.springframework.guava;
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import xyz.yang.ddd.core.springframework.guava.GuavaEventBusPublisher;
-import xyz.yang.ddd.core.springframework.guava.GuavaEventBusPublisherCanRollbackTransaction;
 import xyz.yang.toodles.EventPublisher;
 
 @Configuration
 @SuppressWarnings("unused")
-public class XyzYangAutoConfiguration {
+public class EventPublisherConfiguration {
 
     @ConditionalOnMissingBean(EventPublisher.class)
     @ConditionalOnProperty(prefix = "xyz.yang.transaction", name = "support-transaction")
