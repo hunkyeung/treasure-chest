@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=xyz.yang.persistence.mongo.core.MongoAutoConfiguration,\
+xyz.yang.persistence.mongo.core.MongoTransactionAutoConfiguration

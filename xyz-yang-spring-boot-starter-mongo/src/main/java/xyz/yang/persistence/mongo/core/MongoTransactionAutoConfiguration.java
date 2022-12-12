@@ -26,7 +26,7 @@ import java.util.Map;
 @ConfigurationProperties(prefix = "xyz.yang.transaction")
 @Configuration
 @SuppressWarnings("unused")
-public class MongoTransactionConfig {
+public class MongoTransactionAutoConfiguration {
 
     @Value("${required-prefix}")
     private String requiredPrefix;

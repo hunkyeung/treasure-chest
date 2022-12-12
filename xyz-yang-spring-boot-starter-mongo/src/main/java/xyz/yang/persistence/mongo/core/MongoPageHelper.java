@@ -4,7 +4,6 @@ import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
-import org.springframework.stereotype.Component;
 import xyz.yang.query.PageResult;
 
 import java.io.Serializable;
@@ -15,7 +14,6 @@ import java.util.function.Function;
 /**
  * MongoDB分页查询工具类.
  **/
-@Component
 public class MongoPageHelper {
 
     public static final int FIRST_PAGE_NUM = 1;
