@@ -1,1 +1,3 @@
 org.springframework.context.ApplicationListener=xyz.yang.ddd.core.springframework.SpringServiceRegistry
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=xyz.yang.ddd.core.springframework.snowflake.SnowFlakeAutoConfiguration,\
+xyz.yang.ddd.core.springframework.guava.EventPublisherAutoConfiguration

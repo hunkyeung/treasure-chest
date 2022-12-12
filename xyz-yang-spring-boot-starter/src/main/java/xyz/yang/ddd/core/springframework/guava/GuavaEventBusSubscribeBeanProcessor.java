@@ -6,7 +6,6 @@ import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.core.annotation.AnnotationUtils;
 import org.springframework.lang.NonNull;
-import org.springframework.stereotype.Component;
 import xyz.yang.toodles.EventPublisher;
 import xyz.yang.toodles.ServiceLocator;
 
@@ -17,7 +16,6 @@ import java.lang.reflect.Method;
  * @author YangXuehong
  * @date 2021/10/11
  */
-@Component
 @Slf4j
 @SuppressWarnings({"unused", "UnstableApiUsage"})
 public class GuavaEventBusSubscribeBeanProcessor implements BeanPostProcessor {
